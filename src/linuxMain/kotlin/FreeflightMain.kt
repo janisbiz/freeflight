@@ -1,12 +1,12 @@
 package freeflightMain
 
-import wiringPi.*
 import kotlinx.cinterop.*
+import wiringPi.*
 
 fun hello(): String = "Hello, Kotlin/Native! Build! AAA"
 
 fun main(args: Array<String>) {
     println(hello())
 
-    wiringPi.wiringPiSetup()
+    wiringPiSetup()
 }

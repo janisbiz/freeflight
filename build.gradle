@@ -48,8 +48,6 @@ kotlin {
                 cinterops {
                     wiringPi {
                         defFile project.file("src/linuxMain/c_interop/wiringPi.def")
-            
-                        compilerOpts '-I/usr/local/include -L/usr/local/lib -lwiringPi'
                     }
                 }
             }
